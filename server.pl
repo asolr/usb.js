@@ -1,3 +1,5 @@
+# a simple http server in perl
+
 use HTTP::Daemon;
 use HTTP::Status;
     #my $d = new HTTP::Daemon;
@@ -18,4 +20,3 @@ use HTTP::Status;
       $c->close;
       undef($c);
   }
-# based on http
